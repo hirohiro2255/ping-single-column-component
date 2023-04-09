@@ -12,7 +12,7 @@
 
   function handleClick() {
     if (email.length === 0) {
-      errorMsg = 'Email cannot be empty';
+      errorMsg = 'Whoops! It looks like you forgot to add your email';
       isError = true;
     } else if (validateEmail(email)) {
       email = '';
